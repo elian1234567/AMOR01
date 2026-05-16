@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corazón Neón</title>
+
+    <link rel="stylesheet" href="corazon.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <svg class="heart" viewBox="0 0 600 600">
+
+            <defs>
+                <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#ff0000"/>
+                    <stop offset="15%" stop-color="#ff7b00"/>
+                    <stop offset="30%" stop-color="#ffee00"/>
+                    <stop offset="45%" stop-color="#00ff66"/>
+                    <stop offset="60%" stop-color="#00d9ff"/>
+                    <stop offset="75%" stop-color="#004cff"/>
+                    <stop offset="100%" stop-color="#ff00ea"/>
+                </linearGradient>
+            </defs>
+
+            <path class="heart-path"
+                d="M300 520
+                   C 120 360, 55 250, 55 150
+                   C 55 70, 120 30, 190 30
+                   C 250 30, 285 75, 300 120
+                   C 315 75, 350 30, 410 30
+                   C 480 30, 545 70, 545 150
+                   C 545 250, 480 360, 300 520">
+            </path>
+
+        </svg>
+
+        <!-- partículas -->
+        <div class="sparkles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+</body>
+</html>
